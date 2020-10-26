@@ -43,4 +43,15 @@ public class FoodReview
     {
       return timestamp;
     }
+    /**
+      gets the number of funny likes 
+      @returns numFunnyLikes obeject
+    */ 
+     
+    public getNumFunnyLikes(){
+      return numFunnyLikes;
+    }
+  
+  
+  
 }
