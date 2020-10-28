@@ -13,6 +13,7 @@ public class User
     
     // add more
     private String name;
+    private String resturantName;
 
     /**
       describe this constructor
@@ -23,10 +24,27 @@ public class User
         reviewCount = 0;
         reviewScoreTotal = 0;
         name = "none";
+        resturantName = "none";
     }
 
     // accessors and mutators here
 
+    /**
+      Sets the name of the returant being reviewed
+      @param _resturantName the name of the resturant being reviewed
+    */
+    public void setResturantName(String _resturantName){
+      resturantName = _resturantName;
+    }
+  
+    /**
+      returns the resturant name
+      @return resturantName the name of the resturant
+    */
+    public String getResturantName(){
+      return resturantName;
+    }
+  
     /**
       describe each method
     */
