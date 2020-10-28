@@ -49,7 +49,7 @@ public class User
       Sets the user's name to a string.
       @param _name the name of the user
     */
-    public void setName(String _name)
+    public void setName(Name _name)
     {
       name = _name;
     }
