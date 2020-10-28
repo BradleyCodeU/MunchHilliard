@@ -16,7 +16,8 @@ public class FoodReview
     private int numFunnyLikes; // similar to Like button, but says "Funny"
     private int numCoolLikes; // similar to Like button, but says "Cool"
     private int numDislikes; // similar to Like button, but says "Dislike"
-
+    private int numAverageLikes; // similar to Like button, but says "Average"
+  
     /**
       describe this constructor
       @param
@@ -31,6 +32,7 @@ public class FoodReview
         numFunnyLikes = 0; // defaults to 0
         numCoolLikes = 0; // defaults to 0
         numDislikes = 0; // defaults to 0
+        numAverageLikes = 0; // defaults to 0 
         // set instance var values using parameters
         // TO DO
     }
@@ -91,6 +93,12 @@ public class FoodReview
     return reviewScore;
   }
 
-  
+  /**
+  returns the number of average likes
+  @return number of average likes
+  */
+  public int getNumAverageLikes(){
+    return numAverageLikes;
+  }
 
 }
