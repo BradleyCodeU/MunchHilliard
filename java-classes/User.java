@@ -14,7 +14,7 @@ public class User
     
     // add more
 
-    private String userName;
+    private int age;
 
     private String name;
 
@@ -51,12 +51,12 @@ public class User
     }
   
     /**
-      Returns the user name
-      @return userName which is the user's name
+      Returns the user's age
+      @return age which is the user's age
     */
-    public String getUserName()
+    public String getAge()
     {
-      return userName;
+      return age;
     }
 
     /**
@@ -68,12 +68,12 @@ public class User
     }
   
     /**
-      Sets the user's name
-      @param String _userName
+      Sets the user's age
+      @param int _userName
     */
-    public void setUserName(String _userName)
+    public void setAge(int _age)
     {
-      userName = _userName
+      age = _age;
     }
 
     /**
