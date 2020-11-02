@@ -18,6 +18,7 @@ public class User
     private String birthday;
     private String gender;
     private String userEmail;
+    private String location;
     // add more
 
     /**
@@ -34,6 +35,7 @@ public class User
         this.recentLoginDay = "";
         userAge = 0;
         userEmail = "none";
+        location = "Unknown";
 
     }
 
@@ -214,6 +216,27 @@ public class User
     public String getUserEmail(){
       return userEmail;
     }
+    
+    public void setLocation(String _location){
+      location = _location;
+    }
+  
+    /**
+      setUserLocation(String location)
+      Sets the user's location 
+      @param String location which is the user's location
+    */
+   
+    public String getLocation(){
+      return location;
+    }
+    /**
+    getLocation()
+    Acesses the user location 
+    @return the user's location
+    
+    */
+    
       
   
   
