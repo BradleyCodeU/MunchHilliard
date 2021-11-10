@@ -37,14 +37,21 @@ public class FoodReview
 
     // accessors and mutators here
 
-    /**
-      returns the number of useful likes on the review
-      
+     /** 
+      returns the number of useful likes on the review 
+      @return numUsefulLikes - Total number of UsefulLikes
     */
     public int getUsefulLikes()
     {
       
-      return 0; // TO DO
+      return numUsefulLikes;
+    }
+  /** 
+      sets the number of useful likes on the review
+      @Param int newnumUsefulLikes - first numerical value for the numUsefulLikes
+    */
+    public void setUsefulLikes(int newnumUsefulLikes) {
+      this.numUsefulLikes = newnumUsefulLikes;
     }
   
     /**
