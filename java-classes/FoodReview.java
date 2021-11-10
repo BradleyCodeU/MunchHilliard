@@ -37,13 +37,14 @@ public class FoodReview
 
     // accessors and mutators here
 
+
      /** 
       returns the number of useful likes on the review 
       @return numUsefulLikes - Total number of UsefulLikes
+
     */
     public int getUsefulLikes()
     {
-      
       return numUsefulLikes;
     }
   /** 
@@ -56,9 +57,10 @@ public class FoodReview
   
     /**
       adds one useful like for the review
+      
     */ 
-    public void addUsefulLike(){
-      // TO DO
+    public void addUsefulLikes(int _UsefulLikes){
+      UsefulLikes = _UsefulLikes;
     }
     
     /** 
